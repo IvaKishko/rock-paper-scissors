@@ -1,0 +1,32 @@
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.announcement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalAnnouncement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

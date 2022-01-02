@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
-    <script src="./rpc.js"></script>
+    
+    <div class="header1"><h1>Rock Paper Scissors</h1></div>
+    <div class="container">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+
+    <div class="results">
+        <div id="notPlayer">Computer</div>
+        <div id="player">You</div>
+    </div>
+
+    <div class="announcement">result</div>
+    <div class="finalAnnouncement">And the winner is...</div>
+    <script src="./rpc.js" defer></script>
 </body>
 </html>
